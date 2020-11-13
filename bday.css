@@ -83,7 +83,18 @@ a {
 }
 
 body {
-  background: url("https://i.stack.imgur.com/okgSI.jpg");
+  background: url("Photos/bdaybg.jpg");
   background-position: center center;
   background-size: contain;
+}
+
+.nav-text:hover {
+  color: skyblue;
+  background-color: #131313;
+  border-radius: 10px;
+  opacity: 1;
+}
+.nav-text {
+  color: #000;
+  opacity: 0.15;
 }
