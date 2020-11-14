@@ -18,6 +18,10 @@
 }
 .nav-text {
   color: #868c92;
+  padding: 0px 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-family: "Moon Bold" !important;
 }
 
 .im {
@@ -33,6 +37,7 @@
 html,
 body {
   background: #131313;
+  font-family: "Moon Light" !important;
 }
 .bg {
   background: #181818 !important;
