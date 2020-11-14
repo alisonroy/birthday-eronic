@@ -93,7 +93,7 @@
 html,
 body,
 .testimonials {
-  background: #131313;
+  background: #131313 !important;
 }
 
 .active-nav {
@@ -106,4 +106,8 @@ body,
   border-radius: 0px !important;
   width: 225px !important;
   max-width: 300px !important;
+}
+
+.navbar-custom {
+  background: #181818;
 }
