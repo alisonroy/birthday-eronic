@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Moon Light";
+  src: url("Moon Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Moon Bold";
+  src: url("Moon Bold.otf") format("opentype");
+}
+.nav-text:hover {
+  color: skyblue;
+  background-color: #282828;
+  border-radius: 10px;
+}
+.active {
+  color: skyblue;
+  background-color: #282828;
+  border-radius: 10px;
+}
+.nav-text {
+  color: #868c92;
+}
+
+.im {
+  transform-style: preserve-3d;
+  max-width: 150px !important;
+  height: 200px !important;
+  border-radius: 50%;
+}
+.navbar-custom {
+  background: #181818;
+}
+
+html,
+body {
+  background: #131313;
+}
+.bg {
+  background: #181818 !important;
+}
