@@ -16,16 +16,18 @@
 }
 
 .shadow-effect {
-  background: #fff;
+  background-color: #181818;
+  color: #868c92;
   padding: 20px;
   border-radius: 4px;
   text-align: center;
+  vertical-align: middle;
   border: 1px solid #ececec;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.02);
 }
 #customers-testimonials .shadow-effect p {
   font-family: inherit;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 1.5;
   margin: 0 0 17px 0;
   font-weight: 300;
@@ -60,7 +62,7 @@
 }
 .owl-carousel .owl-item img {
   transform-style: preserve-3d;
-  max-width: 90px;
+  max-width: 150px;
   margin: 0 auto 17px;
   border-radius: 50%;
 }
@@ -93,12 +95,15 @@ body,
 .testimonials {
   background: #131313;
 }
-.shadow-effect {
-  background-color: #181818;
-  color: #868c92;
-}
-.active {
+
+.active-nav {
   color: skyblue;
   background-color: #282828;
   border-radius: 10px;
+}
+
+.poem {
+  border-radius: 0px !important;
+  width: 225px !important;
+  max-width: 300px !important;
 }

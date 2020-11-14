@@ -19,17 +19,8 @@
 .nav-text {
   color: #868c92;
 }
-html,
-body {
-  background: #131313;
-}
-
-.text {
-  font-size: 0.9rem;
-}
 
 .intext {
-  /* color: #f7c08a; */
   background-color: #181818;
 }
 .gra {
@@ -43,9 +34,27 @@ body {
   font-family: "Moon Light";
 }
 .im {
+  transform-style: preserve-3d;
+  max-width: 150px !important;
+  height: 200px !important;
   border-radius: 50%;
 }
 .card {
   border-radius: 100px;
   padding: 30px;
+  background: #00040c !important;
+  color: #868c92;
+}
+.navbar-custom {
+  background: #181818;
+}
+
+html,
+body,
+#class {
+  background: #131313;
+}
+
+.imwish {
+  height: 250px !important;
 }
